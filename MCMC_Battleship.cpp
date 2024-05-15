@@ -240,7 +240,7 @@ int main(int argc, const char* argv[]){
     it being inconsistent with the observations. To implement hits, we need to sometimes make proposals according to random changes and
     sometimes try to swap boats around. Additionally, it would also be worth 
     */
-    int chainLength = 5000000;
+    int chainLength = 1000000;
     int burnIn = 1000;
     int sampleRate = 1;
     for(int i = 0; i < chainLength; i++){
