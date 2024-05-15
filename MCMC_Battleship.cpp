@@ -6,8 +6,8 @@ given that you have missed several shots and the location of those shots. It cur
 but this was mostly a quick and fun exercise. It should also be noted that because parameter space is mostly flat, you aren't really
 exploring parameter space like you would in a typical MCMC. I have ran this code several times and it appears to give consistent results,
 but it is likely that parameter space isn't being fully explored - if we are generous, we are only sampling ~1 million unique board orientations;
-I'm sure there are more possibilities than that. Also, this could definitely be faster if I implemented board and ship classes rather than
-swapping between handle and ship positions.
+I'm sure there are more possibilities than that. I can almost certainly say that the chain is NOT in stationary, but that is sort of just the nature of
+the problem here.
 */
 #include <iostream>
 #include <vector>
